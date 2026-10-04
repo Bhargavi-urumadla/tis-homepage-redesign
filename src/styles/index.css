@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 248 242;
+  --surface: 255 255 255;
+  --ink: 11 37 69;
+  --muted: 79 96 120;
+  --brand: 11 37 69;
+  --accent: 245 183 0;
+}
+.dark {
+  --bg: 8 17 33;
+  --surface: 15 30 56;
+  --ink: 240 243 248;
+  --muted: 160 174 196;
+  --brand: 245 183 0;
+  --accent: 245 183 0;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-bg font-sans text-ink antialiased;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+:focus-visible { outline: 3px solid rgb(var(--accent)); outline-offset: 3px; }
+
+/* Hide native cursor only where the custom one is active (fine pointers) */
+@media (pointer: fine) {
+  html.has-cursor, html.has-cursor a, html.has-cursor button { cursor: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee-track { animation: none !important; }
+}
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee-track { animation: marquee 28s linear infinite; }
