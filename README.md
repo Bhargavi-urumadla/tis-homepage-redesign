@@ -3,7 +3,7 @@
 A modern, animated redesign of the TIS homepage focused on conversion, smooth motion and mobile responsiveness. Copy and brand details are retained from [tis.edu.in](https://tis.edu.in).
 
 ## 🚀 Live Demo
-- **Live URL:** _add your Vercel/Netlify link_
+- **Live URL:**tis-homepage-redesign-8f0q20dga-bhargavi13.vercel.app
 - **Repository:**https://github.com/Bhargavi-urumadla
 
 ## 🛠️ Tech Stack
