@@ -2,10 +2,8 @@
 
 A modern, animated redesign of the TIS homepage focused on conversion, smooth motion and mobile responsiveness. Copy and brand details are retained from [tis.edu.in](https://tis.edu.in).
 
-## 🚀 Live Demo
-- **Live URL:https://tis-homepage-redesign-8f0q20dga-bhargavi13.vercel.app/
-- **Repository:**https://github.com/Bhargavi-urumadla
-
+- **Live URL:** [https://tis-homepage-redesign-8f0q20dga-bhargavi13.vercel.app/](https://tis-homepage-redesign-8f0q20dga-bhargavi13.vercel.app/)
+- **Repository:** [https://github.com/Bhargavi-urumadla/tis-homepage-redesign](https://github.com/Bhargavi-urumadla/tis-homepage-redesign)
 ## 🛠️ Tech Stack
 React 18 · Vite · Tailwind CSS 3 · Framer Motion · Lucide React · Deployed on Vercel
 
