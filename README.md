@@ -4,7 +4,7 @@ A modern, animated redesign of the TIS homepage focused on conversion, smooth mo
 
 ## 🚀 Live Demo
 - **Live URL:** _add your Vercel/Netlify link_
-- **Repository:** _add your GitHub link_
+- **Repository:**https://github.com/Bhargavi-urumadla
 
 ## 🛠️ Tech Stack
 React 18 · Vite · Tailwind CSS 3 · Framer Motion · Lucide React · Deployed on Vercel
